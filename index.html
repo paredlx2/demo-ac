@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="dark">
+<title>Uniformes Corporativos y Escolares en Guatemala | AC Empresarial</title>
+<meta name="description" content="Fábrica de uniformes en Guatemala: corporativos, escolares e industriales con bordado, serigrafía y sublimación. 33 años de experiencia. Cotiza hoy.">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta name="theme-color" content="#07080A">
+<meta name="geo.region" content="GT"><meta name="geo.placename" content="Guatemala">
+<link rel="canonical" href="https://github.com/paredlx2/demo-ac">
+<link rel="alternate" hreflang="es-GT" href="https://github.com/paredlx2/demo-ac">
+<meta property="og:type" content="website"><meta property="og:site_name" content="AC Empresarial"><meta property="og:locale" content="es_GT"><meta property="og:url" content="https://github.com/paredlx2/demo-ac">
+<meta property="og:title" content="Uniformes Corporativos y Escolares en Guatemala | AC Empresarial">
+<meta property="og:description" content="33 años confeccionando uniformes corporativos, colegiales e industriales, con bordado, serigrafía y sublimación.">
+<meta name="twitter:card" content="summary"><meta name="twitter:title" content="Uniformes Corporativos y Escolares en Guatemala | AC Empresarial"><meta name="twitter:description" content="Uniformes corporativos, colegiales e industriales con 33 años de experiencia en Guatemala.">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":["Organization","LocalBusiness"],"@id":"https://github.com/paredlx2/demo-ac#org","name":"AC Empresarial","url":"https://github.com/paredlx2/demo-ac","description":"Confección de uniformes corporativos, colegiales e industriales en Guatemala, con bordado computarizado, serigrafía, sublimación e impresión digital.","foundingDate":"1993","telephone":["+502 2221 6665","+502 2267 0275"],"email":"ventas@acempresarial.com","address":{"@type":"PostalAddress","streetAddress":"Avenida Bolívar 27-64, Zona 1","addressLocality":"Guatemala","addressCountry":"GT"},"areaServed":{"@type":"Country","name":"Guatemala"},"contactPoint":[{"@type":"ContactPoint","contactType":"sales","telephone":"+502 3496-1040","email":"ventasav@acempresarial.com","availableLanguage":"es"}],"knowsAbout":["Uniformes corporativos","Uniformes escolares","Uniformes industriales","Bordado computarizado","Serigrafía","Sublimación"],"hasOfferCatalog":{"@type":"OfferCatalog","name":"Uniformes y personalización textil","itemListElement":[{"@type":"Offer","itemOffered":{"@type":"Product","name":"Uniformes ejecutivos"}},{"@type":"Offer","itemOffered":{"@type":"Product","name":"Uniformes colegiales"}},{"@type":"Offer","itemOffered":{"@type":"Product","name":"Uniformes industriales y operarios"}},{"@type":"Offer","itemOffered":{"@type":"Product","name":"Uniformes hospitalarios y de cocina"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Bordado computarizado"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Serigrafía y sublimación"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Impresión digital corporativa"}}]}},{"@type":"WebSite","url":"https://github.com/paredlx2/demo-ac","name":"AC Empresarial","inLanguage":"es-GT"},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"¿Qué tipos de uniformes confecciona AC Empresarial?","acceptedAnswer":{"@type":"Answer","text":"Uniformes ejecutivos masculinos y femeninos, colegiales, industriales y operarios, hospitalarios y de cocina, y deportivos."}},{"@type":"Question","name":"¿Qué servicios de personalización ofrecen?","acceptedAnswer":{"@type":"Answer","text":"Bordado computarizado, serigrafía, sublimación e impresión digital de carnets, agendas escolares y cuadernos corporativos."}},{"@type":"Question","name":"¿Dónde está ubicada AC Empresarial?","acceptedAnswer":{"@type":"Answer","text":"En Avenida Bolívar 27-64, Zona 1, Guatemala. Teléfonos +502 2221 6665 y +502 2267 0275."}},{"@type":"Question","name":"¿Cómo solicito una cotización de uniformes?","acceptedAnswer":{"@type":"Answer","text":"Con el formulario de la página, por WhatsApp al +502 3496-1040 o por correo a ventas@acempresarial.com. Indica el tipo de prenda, la cantidad y la fecha de entrega."}},{"@type":"Question","name":"¿Cumplen con las fechas de entrega?","acceptedAnswer":{"@type":"Answer","text":"Sí. La entrega puntual es una garantía de AC Empresarial. Conviene coordinar la fecha desde la cotización, sobre todo en temporada escolar."}},{"@type":"Question","name":"¿Cuánta experiencia tiene AC Empresarial?","acceptedAnswer":{"@type":"Answer","text":"33 años de trayectoria, con más de 952 clientes entre empresas y colegios y más de 6,859 proyectos entregados."}}]}]}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Plus+Jakarta+Sans:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com/3.4.17"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/lenis@1.1.13/dist/lenis.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/lucide@0.469.0/dist/umd/lucide.min.js"></script>
+<style>
+@property --a{syntax:"<angle>";initial-value:0deg;inherits:false}
+:root{--bg:#07080A;--sf:#111318;--ln:rgba(255,255,255,.08);--au:#EAB308;--fg:#F8FAFC;--mu:#94A3B8;color-scheme:dark;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+html.lenis,html.lenis body{height:auto}.lenis.lenis-smooth{scroll-behavior:auto!important}
+body{background:var(--bg);color:var(--fg);font:400 16px/1.6 "Plus Jakarta Sans",system-ui,sans-serif;overflow-x:hidden}
+h1,h2,h3,.sg{font-family:"Space Grotesk","Plus Jakarta Sans",sans-serif;letter-spacing:-.035em;text-transform:uppercase}
+.mono{font-family:"JetBrains Mono",ui-monospace,monospace;font-size:12px;letter-spacing:.06em}
+body::after{content:"";position:fixed;inset:0;z-index:150;pointer-events:none;opacity:.07;background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='200' height='200' filter='url(%23n)'/%3E%3C/svg%3E")}
+:focus-visible{outline:2px solid var(--au);outline-offset:3px}
+.pad{padding-left:max(24px,5vw);padding-right:max(24px,5vw)}
+#pl{position:fixed;inset:0;z-index:200;background:var(--bg);display:flex;flex-direction:column;justify-content:space-between;padding:28px;animation:plf 0s 4s forwards}
+@keyframes plf{to{visibility:hidden}}
+.plw{overflow:hidden}#plc{font:500 clamp(64px,16vw,200px)/1 "JetBrains Mono",monospace;color:var(--au)}
+#nv{position:fixed;left:0;right:0;margin:auto;width:max-content;max-width:calc(100% - 24px);z-index:100;top:calc(env(safe-area-inset-top,0px) + 14px)}
+#nv nav{display:flex;align-items:center;gap:6px;padding:8px 8px 8px 20px;border-radius:99px;background:rgba(17,19,24,.55);backdrop-filter:blur(22px) saturate(160%);-webkit-backdrop-filter:blur(22px) saturate(160%);border:1px solid var(--ln)}
+#nv a.l{padding:8px 14px;font-size:14px;color:var(--mu);transition:color .3s;display:none}#nv a.l:hover{color:var(--fg)}
+@media(min-width:900px){#nv a.l{display:inline-block}}
+.logo{font:700 14px "Space Grotesk";letter-spacing:.12em;margin-right:10px}
+.cb{display:inline-block;padding:1.5px;border-radius:99px;background:conic-gradient(from var(--a),var(--au),transparent 35%,var(--au) 70%,transparent);animation:spin 3.5s linear infinite}
+@keyframes spin{to{--a:360deg}}
+.cb span{display:block;padding:9px 18px;border-radius:99px;background:var(--bg);font-weight:600;font-size:14px;white-space:nowrap}
+.btn{display:inline-flex;align-items:center;gap:10px;padding:18px 30px;border-radius:99px;background:var(--au);color:#07080A;font-weight:600;cursor:pointer;border:0}
+.lnk{display:inline-flex;gap:8px;padding:18px 6px;border-bottom:1px solid var(--ln);color:var(--fg);transition:border-color .3s}.lnk:hover{border-color:var(--au)}
+.hero{position:relative;min-height:100svh;display:grid;align-items:center;padding-top:150px;padding-bottom:90px;overflow:hidden}
+.hero h1{font-size:clamp(2.5rem,8vw,7.6rem);line-height:.92;font-weight:700;margin:22px 0 28px}
+.ln{display:block;overflow:hidden;padding-bottom:.06em}.ln span{display:block}
+.vis{position:absolute;right:-8%;top:50%;translate:0 -50%;width:min(64vw,760px);opacity:.9;pointer-events:none}
+@media(max-width:760px){.vis{width:130vw;right:-40vw;opacity:.32}}
+.st{animation:dash 6s linear infinite}@keyframes dash{to{stroke-dashoffset:-190}}
+.mqw{position:relative;height:230px;overflow:hidden;margin:40px 0}
+.bd{position:absolute;left:-5%;width:110%;white-space:nowrap;display:flex;padding:18px 0;font:700 clamp(20px,3vw,34px) "Space Grotesk";letter-spacing:-.01em}
+.bd div{display:flex;flex:none}.bd i{font-style:normal;padding:0 26px}
+.b1{top:30px;background:var(--au);color:#07080A;rotate:-2.2deg}.b1 div{animation:mq 38s linear infinite}
+.b2{top:112px;border-block:1px solid var(--ln);background:var(--sf);rotate:2deg}.b2 div{animation:mq 62s linear infinite reverse}
+@keyframes mq{to{transform:translateX(-100%)}}
+.mt{padding-top:28px;border-top:1px solid var(--ln)}
+.mt b{display:block;font:700 clamp(4.4rem,12vw,11rem)/.9 "Space Grotesk";letter-spacing:-.05em}
+.pill{padding:10px 18px;border-radius:99px;border:1px solid var(--ln);color:var(--mu);font-size:14px;cursor:pointer;background:transparent;transition:all .35s}
+.pill[aria-pressed=true]{background:var(--fg);color:#07080A;border-color:var(--fg)}
+.bg{display:grid;grid-template-columns:repeat(6,1fr);gap:14px;grid-auto-flow:dense}
+.cd{grid-column:span 2;min-height:300px}.cd.w{grid-column:span 3}.cd.big{grid-column:span 3;grid-row:span 2;min-height:520px}.cd.f{grid-column:span 6;min-height:220px}
+@media(max-width:860px){.bg{grid-template-columns:1fr}.cd,.cd.w,.cd.big,.cd.f{grid-column:auto;grid-row:auto;min-height:280px}}
+.sp{position:relative;background:var(--sf);border:1px solid var(--ln);border-radius:26px;overflow:hidden;--mx:50%;--my:50%}
+.sp::before{content:"";position:absolute;inset:0;pointer-events:none;opacity:0;transition:opacity .4s;background:radial-gradient(420px circle at var(--mx) var(--my),rgba(234,179,8,.13),transparent 60%)}
+.sp::after{content:"";position:absolute;inset:0;border-radius:inherit;padding:1px;pointer-events:none;opacity:0;transition:opacity .4s;background:radial-gradient(260px circle at var(--mx) var(--my),var(--au),transparent 65%);-webkit-mask:linear-gradient(#000 0 0) content-box,linear-gradient(#000 0 0);-webkit-mask-composite:xor;mask-composite:exclude}
+.sp:hover::before,.sp:hover::after{opacity:1}
+.tw{position:absolute;inset:0;background:repeating-linear-gradient(45deg,rgba(255,255,255,.05) 0 1px,transparent 1px 8px),repeating-linear-gradient(-45deg,rgba(234,179,8,.07) 0 1px,transparent 1px 8px),radial-gradient(120% 90% at 100% 0,var(--h,rgba(234,179,8,.22)),transparent 60%);transition:transform .9s cubic-bezier(.2,.8,.2,1)}
+.cd:hover .tw{transform:scale(1.08)}
+.cin{position:relative;z-index:2;height:100%;display:flex;flex-direction:column;justify-content:space-between;padding:26px;gap:40px;cursor:pointer;text-align:left;width:100%;background:none;border:0;color:inherit}
+.tag{display:inline-block;padding:5px 10px;border:1px solid var(--ln);border-radius:6px;background:rgba(7,8,10,.5);color:var(--au)}
+.qv{position:fixed;inset:0;z-index:120;pointer-events:none}
+.qv .ov{position:absolute;inset:0;background:rgba(0,0,0,.6);opacity:0;transition:opacity .5s}
+.qv aside{position:absolute;right:0;top:0;bottom:0;width:min(520px,100%);background:var(--sf);border-left:1px solid var(--ln);padding:34px 30px;transform:translateX(100%);transition:transform .7s cubic-bezier(.2,.8,.2,1);overflow:auto}
+.qv.on{pointer-events:auto}.qv.on .ov{opacity:1}.qv.on aside{transform:none}
+.stk{position:sticky;top:calc(96px + var(--i)*16px);min-height:min(62vh,460px);margin-bottom:34px;transform-origin:50% 0;display:grid;grid-template-columns:1.2fr 1fr;gap:20px}
+.stk .in{position:relative;z-index:2;padding:34px;display:flex;flex-direction:column;justify-content:space-between;gap:30px}
+.stk .num{position:relative;z-index:2;align-self:center;justify-self:center;padding:20px;width:min(300px,86%)}.stk .num svg{width:100%;height:auto;filter:drop-shadow(0 18px 22px rgba(0,0,0,.5))}
+@media(max-width:760px){.stk{grid-template-columns:1fr;min-height:380px}.stk .num{display:none}}
+.dual{display:flex;gap:14px;height:min(640px,78vh)}
+@media(max-width:760px){.dual{flex-direction:column;height:680px}}
+.pn{flex:1;transition:flex .8s cubic-bezier(.2,.8,.2,1);cursor:pointer;min-width:0;min-height:0}.pn.on{flex:2.3}
+.pn .in{position:relative;z-index:2;height:100%;padding:30px;display:flex;flex-direction:column;justify-content:space-between}
+.pn .dt{opacity:.0;max-height:0;transition:opacity .5s .1s,max-height .6s}.pn.on .dt{opacity:1;max-height:340px}
+.pn h3{font-size:clamp(1.6rem,3.4vw,3.2rem);line-height:.98}
+.ft h2{font-size:clamp(2.6rem,9.4vw,9.4rem);line-height:.9;font-weight:700}
+.chip{display:inline-block;padding:11px 18px;border-radius:99px;border:1px solid var(--ln);cursor:pointer;transition:all .3s;font-size:14px;color:var(--mu)}
+.chip:has(input:checked){background:var(--au);color:#07080A;border-color:var(--au)}
+.chip:has(input:focus-visible){outline:2px solid var(--au);outline-offset:3px}
+.fi{width:100%;background:transparent;border:0;border-bottom:1px solid var(--ln);padding:16px 0;color:var(--fg);outline:0;transition:border-color .3s}.fi:focus{border-color:var(--au)}
+.wa{position:fixed;right:18px;bottom:calc(18px + env(safe-area-inset-bottom,0px));z-index:90;width:60px;height:60px;border-radius:50%;background:#22C55E;color:#04170B;display:grid;place-items:center}
+.wa::after{content:"";position:absolute;inset:0;border-radius:50%;border:2px solid #22C55E;animation:pu 2.4s ease-out infinite}@keyframes pu{to{transform:scale(1.6);opacity:0}}
+.gi{position:absolute;right:-4%;bottom:-6%;width:56%;z-index:1;pointer-events:none;filter:drop-shadow(0 26px 24px rgba(0,0,0,.55));transition:transform .9s cubic-bezier(.2,.8,.2,1)}.gi svg{display:block;width:100%;height:auto}.cd:hover .gi{transform:translateY(-10px) scale(1.05)}.cd.big .gi{width:54%}.cd.f .gi{width:20%;right:5%}.cd h3{max-width:60%}.cd.f h3{max-width:none}.pn .gi{width:44%;right:4%;bottom:0}.hgi{transition:none}.cd:hover .hgi{transform:none}@media(max-width:860px){.cd.f .gi{width:46%}}
+.fq{border-top:1px solid var(--ln)}.fq summary{cursor:pointer;list-style:none;padding:22px 0;font:500 clamp(18px,2.2vw,24px) "Space Grotesk",sans-serif;display:flex;justify-content:space-between;gap:20px}.fq summary::-webkit-details-marker{display:none}.fq summary::after{content:"+";color:var(--au);font-size:28px;line-height:1}.fq[open] summary::after{content:"–"}.fq p{color:var(--mu);padding:0 0 24px;max-width:70ch}
+.gi.photo img{display:block;width:100%;height:100%;object-fit:cover}.hgi.photo img{height:auto;aspect-ratio:4/5;border-radius:18px}.num.photo img{height:auto;aspect-ratio:1;border-radius:18px;filter:none}
+.cd .gi.photo,.pn .gi.photo{inset:0;width:auto;right:0;bottom:0;filter:none}.cd .gi.photo::after,.pn .gi.photo::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(7,8,10,.1) 20%,rgba(7,8,10,.88))}.cd:hover .gi.photo{transform:scale(1.05)}.cd .gi.photo+.cin h3{max-width:none}
+.photo::before{content:"";position:absolute;inset:0;z-index:1;border-radius:inherit;background:linear-gradient(135deg,rgba(234,179,8,.18),rgba(37,99,235,.1));mix-blend-mode:soft-light;pointer-events:none}.photo img{filter:contrast(1.06) saturate(.88) brightness(.97)}
+.hgi.photo{outline:1px solid rgba(234,179,8,.45);outline-offset:8px;border-radius:18px;overflow:hidden}.hgi.photo::after{content:attr(data-cap);position:absolute;left:12px;bottom:10px;z-index:2;font:11px "JetBrains Mono",monospace;letter-spacing:.08em;color:#F8FAFC}
+.pf{position:relative;overflow:hidden;margin:0;border:1px solid var(--ln);border-radius:22px;background:var(--sf)}.pf .gi{position:absolute;inset:0;right:0;bottom:0;width:auto;z-index:1;filter:none;display:grid;place-items:center;font:12px "JetBrains Mono",monospace;letter-spacing:.08em;color:var(--mu);transition:none}.pf .gi.photo{display:block}.pf .gi[data-px].photo img{height:118%;margin-top:-9%}.pf figcaption{position:absolute;left:18px;bottom:16px;z-index:3;color:#F8FAFC}
+.band{position:relative;margin-top:30px}.bandf{height:min(80vh,660px);border-radius:0;border-width:1px 0}.bandf::after{content:"";position:absolute;inset:0;z-index:2;background:linear-gradient(180deg,rgba(7,8,10,.15),rgba(7,8,10,.88))}.bandt{position:absolute;left:0;right:0;bottom:48px;z-index:3}
+.galf{display:grid;grid-template-columns:repeat(12,1fr);grid-template-rows:repeat(2,minmax(0,1fr));gap:14px;height:min(86vh,720px)}.galf .pf:nth-child(1){grid-column:1/8;grid-row:1/3}.galf .pf:nth-child(2){grid-column:8/13}.galf .pf:nth-child(3){grid-column:8/13}.galf .pf::after{content:"";position:absolute;inset:0;z-index:2;background:linear-gradient(180deg,transparent 55%,rgba(7,8,10,.75));pointer-events:none}
+@media(max-width:760px){.galf{display:block;height:auto}.galf .pf{aspect-ratio:4/3;margin-bottom:14px}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+<div id="pl"><div class="plw"><div class="plt mono" style="font-size:14px">AC EMPRESARIAL // EST. 1993</div></div><div id="plc">00%</div></div>
+
+<header id="nv"><nav>
+<span class="logo">AC</span>
+<a class="l" data-mag href="#lineas">Líneas</a><a class="l" data-mag href="#servicios">Servicios</a><a class="l" data-mag href="#sectores">Sectores</a><a class="l" data-mag href="#contacto">Contacto</a>
+<a data-mag class="cb" href="#contacto"><span>Cotizar</span></a>
+</nav></header>
+
+<main>
+<section class="hero pad" id="top">
+<svg class="vis" viewBox="0 0 600 600" aria-hidden="true"><defs><pattern id="w" width="14" height="14" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><path d="M0 7H14" stroke="#EAB308" stroke-opacity=".55"/><path d="M7 0V14" stroke="#F8FAFC" stroke-opacity=".2"/></pattern><radialGradient id="fd"><stop offset=".5" stop-color="#fff"/><stop offset="1" stop-color="#000"/></radialGradient><mask id="mk"><rect width="600" height="600" fill="url(#fd)"/></mask></defs>
+<g class="vl" data-d="12"><rect x="40" y="40" width="520" height="520" fill="url(#w)" mask="url(#mk)"/></g>
+<g class="vl" data-d="-26" fill="none" stroke="#EAB308" stroke-opacity=".6"><rect x="120" y="120" width="360" height="360"/><rect x="170" y="170" width="260" height="260" stroke="#F8FAFC" stroke-opacity=".25"/></g>
+<g class="vl" data-d="38"><path class="st" d="M70 470C180 330 260 520 340 360S480 200 540 120" fill="none" stroke="#EAB308" stroke-width="2.5" stroke-dasharray="10 9" stroke-linecap="round"/><circle cx="540" cy="120" r="7" fill="#EAB308"/></g></svg>
+<div class="vis" aria-hidden="true" style="aspect-ratio:1"><div class="vl gi hgi" data-u="0" data-d="34" style="left:6%;top:6%;width:44%;rotate:-6deg"></div><div class="vl gi hgi" data-u="2" data-d="-22" style="right:2%;top:26%;width:40%;rotate:5deg"></div><div class="vl gi hgi" data-u="5" data-d="48" style="left:30%;bottom:-2%;width:36%;rotate:-2deg"></div></div>
+<div class="relative" style="z-index:2;max-width:1300px">
+<p class="mono fi2" style="color:var(--au)">[ GUATEMALA • 33 AÑOS DE INGENIERÍA TEXTIL ]</p>
+<h1><span class="ln"><span>Vestimos la</span></span><span class="ln"><span>identidad de las</span></span><span class="ln"><span>grandes</span></span><span class="ln"><span>instituciones.</span></span></h1>
+<p id="lead" class="fi2" style="max-width:540px;color:var(--mu);font-size:18px">Fabricamos uniformes corporativos, escolares e industriales en Guatemala, con precisión de sastrería, bordado computarizado y serigrafía. Una promesa sostenida por 33 años: entregar a tiempo.</p>
+<div class="fi2 mt-10 flex flex-wrap items-center gap-4"><a data-mag class="btn" href="#contacto">Iniciar cotización <i data-lucide="arrow-up-right" class="h-5 w-5"></i></a><a data-mag class="lnk" href="#lineas">Explorar líneas</a></div>
+</div>
+</section>
+
+<div class="mqw" aria-label="Confección de alta precisión, bordado computarizado, serigrafía, sublimación, entrega garantizada">
+<div class="bd b1" aria-hidden="true"><div></div><div></div></div>
+<div class="bd b2" aria-hidden="true"><div></div><div></div></div>
+</div>
+
+<section class="pad py-24" id="nosotros">
+<p class="mono rev" style="color:var(--au)">[ 01 / IMPACTO ]</p>
+<div class="mt-10 grid gap-x-8 gap-y-14 md:grid-cols-12">
+<div class="mt rev md:col-span-6"><b data-n="33" data-s="+">33+</b><p class="mono" style="color:var(--mu)">AÑOS DE TRAYECTORIA</p></div>
+<div class="mt rev md:col-span-5 md:col-start-8 md:mt-24"><b data-n="952">952</b><p class="mono" style="color:var(--mu)">CLIENTES CORPORATIVOS Y COLEGIOS</p></div>
+<div class="mt rev md:col-span-5 md:col-start-3"><b data-n="6859">6,859</b><p class="mono" style="color:var(--mu)">PROYECTOS ENTREGADOS</p></div>
+<div class="mt rev md:col-span-4 md:col-start-9 md:mt-16"><b data-n="3614" style="color:var(--au)">3,614</b><p class="mono" style="color:var(--mu)">PRODUCCIONES DE BORDADO</p></div>
+</div>
+</section>
+
+<section class="band" aria-label="Taller de confección"><figure class="pf bandf"><div class="tw"></div><div class="gi" data-px>FOTO · PANORÁMICA DEL TALLER</div></figure><div class="pad bandt"><p class="mono" style="color:var(--au)">[ TALLER ]</p><h2 class="mt-3 max-w-3xl text-4xl font-bold md:text-6xl">33 años de oficio en cada prenda.</h2></div></section>
+
+<section class="pad py-24" id="lineas">
+<p class="mono rev" style="color:var(--au)">[ 02 / LÍNEAS DE UNIFORMES ]</p>
+<h2 class="rev mt-4 max-w-3xl text-4xl font-bold md:text-6xl">Una línea para cada oficio. Un estándar para todas.</h2>
+<div class="rev mt-9 mb-8 flex flex-wrap gap-2" id="pills">
+<button class="pill" data-f="all" aria-pressed="true">Todas</button><button class="pill" data-f="ejecutiva" aria-pressed="false">Ejecutiva</button><button class="pill" data-f="colegial" aria-pressed="false">Colegial</button><button class="pill" data-f="industrial" aria-pressed="false">Industrial &amp; Operaria</button><button class="pill" data-f="salud" aria-pressed="false">Hospitalaria &amp; Cocina</button>
+</div>
+<div class="bg" id="grid"></div>
+</section>
+
+<section class="pad py-24" id="servicios">
+<p class="mono rev" style="color:var(--au)">[ 03 / PERSONALIZACIÓN Y LOGÍSTICA ]</p>
+<h2 class="rev mt-4 mb-14 max-w-3xl text-4xl font-bold md:text-6xl">Cada prenda, terminada con tu marca.</h2>
+<div id="stack">
+<article class="stk sp" style="--i:0"><div class="tw"></div><div class="in"><span class="mono" style="color:var(--au)">01 / BORDADO</span><div><h3 class="text-3xl font-bold md:text-5xl">Bordado de alta definición</h3><p class="mt-3 max-w-md" style="color:var(--mu)">Más de 3,614 producciones de bordado computarizado: logotipos, nombres y emblemas con puntada exacta en lotes pequeños o masivos.</p></div></div><div class="num"><svg viewBox="0 0 200 200" fill="none" stroke="#EAB308"><circle cx="100" cy="100" r="88" stroke-width="7"/><circle cx="100" cy="100" r="76" stroke-opacity=".4"/><path d="M52 134L78 68L104 134M62 112H94M150 80Q112 56 112 100T150 128" stroke-width="5" stroke-dasharray="6 5" stroke-linecap="round"/></svg></div></article>
+<article class="stk sp" style="--i:1"><div class="tw" style="--h:rgba(59,130,246,.2)"></div><div class="in"><span class="mono" style="color:var(--au)">02 / SERIGRAFÍA Y SUBLIMACIÓN</span><div><h3 class="text-3xl font-bold md:text-5xl">Serigrafía y sublimación</h3><p class="mt-3 max-w-md" style="color:var(--mu)">30 años de experiencia en corte y acabado para estampados nítidos y duraderos.</p></div></div><div class="num"><svg viewBox="0 0 200 200" fill="none" stroke="#EAB308" stroke-width="3" stroke-linejoin="round"><path d="M66 36L28 62L44 100L68 88V168H132V88L156 100L172 62L134 36Q100 58 66 36Z" fill="rgba(234,179,8,.08)"/><rect x="80" y="96" width="40" height="40" stroke-dasharray="5 4"/><circle cx="100" cy="116" r="10" fill="#EAB308"/></svg></div></article>
+<article class="stk sp" style="--i:2"><div class="tw"></div><div class="in"><span class="mono" style="color:var(--au)">03 / IMPRESIÓN DIGITAL</span><div><h3 class="text-3xl font-bold md:text-5xl">Impresión digital corporativa</h3><p class="mt-3 max-w-md" style="color:var(--mu)">Carnets, agendas escolares y cuadernos corporativos con la misma identidad de tus uniformes.</p></div></div><div class="num"><svg viewBox="0 0 200 200" fill="none" stroke="#EAB308" stroke-width="3" stroke-linejoin="round"><rect x="84" y="26" width="90" height="130" rx="6" transform="rotate(8 129 91)" stroke-opacity=".5"/><rect x="36" y="40" width="100" height="140" rx="10" fill="#111318"/><circle cx="86" cy="88" r="16"/><path d="M58 140Q86 108 114 140M52 160H120"/></svg></div></article>
+<article class="stk sp" style="--i:3"><div class="tw" style="--h:rgba(59,130,246,.2)"></div><div class="in"><span class="mono" style="color:var(--au)">04 / LOGÍSTICA</span><div><h3 class="text-3xl font-bold md:text-5xl">Corte, empaque y logística puntual</h3><p class="mt-3 max-w-md" style="color:var(--mu)">Corte a medida, empaque ordenado y entregas que respetan la fecha acordada.</p></div></div><div class="num"><svg viewBox="0 0 200 200" fill="none" stroke="#EAB308" stroke-width="3" stroke-linejoin="round"><path d="M100 28L170 64V138L100 174L30 138V64Z" fill="rgba(234,179,8,.08)"/><path d="M30 64L100 100L170 64M100 100V174M66 46L136 82"/></svg></div></article>
+</div>
+</section>
+
+<section class="pad py-24" aria-label="Dentro del taller"><p class="mono rev" style="color:var(--au)">[ DENTRO DEL TALLER ]</p><h2 class="rev mt-4 mb-10 max-w-3xl text-4xl font-bold md:text-6xl">Precisión que se ve y se toca.</h2>
+<div class="galf"><figure class="pf"><div class="tw"></div><div class="gi" data-px>FOTO · CORTE DE TELAS</div><figcaption class="mono">01 / CORTE</figcaption></figure><figure class="pf"><div class="tw" style="--h:rgba(59,130,246,.22)"></div><div class="gi" data-px>FOTO · BORDADO COMPUTARIZADO</div><figcaption class="mono">02 / BORDADO</figcaption></figure><figure class="pf"><div class="tw"></div><div class="gi" data-px>FOTO · CONTROL DE CALIDAD</div><figcaption class="mono">03 / CALIDAD</figcaption></figure></div></section>
+
+<section class="pad py-24" id="sectores">
+<p class="mono rev" style="color:var(--au)">[ 04 / SECTORES ]</p>
+<h2 class="rev mt-4 mb-12 max-w-3xl text-4xl font-bold md:text-6xl">Dos mundos. Una misma exigencia.</h2>
+<div class="dual rev">
+<article class="pn sp on" tabindex="0" style="background:var(--sf)"><div class="tw" style="--h:rgba(59,130,246,.25)"></div><div class="gi" data-u="2"></div><div class="in"><span class="mono" style="color:var(--au)">PANEL A</span><div><h3 class="font-bold">Sector colegial</h3><div class="dt"><p class="mt-4 max-w-md" style="color:var(--mu)">Telas resistentes al uso diario y cumplimiento estricto en las temporadas escolares, cuando la demanda se concentra y la fecha no se negocia.</p></div></div></div></article>
+<article class="pn sp" tabindex="0"><div class="tw"></div><div class="gi" data-u="0"></div><div class="in"><span class="mono" style="color:var(--au)">PANEL B</span><div><h3 class="font-bold">Sector corporativo</h3><div class="dt"><p class="mt-4 max-w-md" style="color:var(--mu)">Imagen ejecutiva masculina y femenina, con asesoría integral según tu presupuesto: de la selección de telas a la entrega final.</p></div></div></div></article>
+</div>
+</section>
+
+<section class="pad py-24" id="preguntas">
+<p class="mono rev" style="color:var(--au)">[ PREGUNTAS FRECUENTES ]</p>
+<h2 class="rev mt-4 mb-10 max-w-3xl text-4xl font-bold md:text-6xl">Lo que más nos preguntan sobre uniformes.</h2>
+<div class="rev" style="max-width:900px">
+<details class="fq"><summary>¿Qué tipos de uniformes confecciona AC Empresarial?</summary><p>Uniformes ejecutivos masculinos y femeninos, colegiales, industriales y operarios, hospitalarios y de cocina, y deportivos.</p></details>
+<details class="fq"><summary>¿Qué servicios de personalización ofrecen?</summary><p>Bordado computarizado, serigrafía, sublimación e impresión digital de carnets, agendas escolares y cuadernos corporativos.</p></details>
+<details class="fq"><summary>¿Dónde está ubicada AC Empresarial?</summary><p>En Avenida Bolívar 27-64, Zona 1, Guatemala. Teléfonos +502 2221 6665 y +502 2267 0275.</p></details>
+<details class="fq"><summary>¿Cómo solicito una cotización de uniformes?</summary><p>Con el formulario de esta página, por WhatsApp al +502 3496-1040 o por correo a ventas@acempresarial.com. Indica el tipo de prenda, la cantidad y la fecha de entrega.</p></details>
+<details class="fq"><summary>¿Cumplen con las fechas de entrega?</summary><p>Sí. La entrega puntual es una garantía de AC Empresarial. Conviene coordinar la fecha desde la cotización, sobre todo en temporada escolar.</p></details>
+<details class="fq"><summary>¿Cuánta experiencia tiene AC Empresarial?</summary><p>33 años de trayectoria, con más de 952 clientes entre empresas y colegios y más de 6,859 proyectos entregados.</p></details>
+<div style="border-top:1px solid var(--ln)"></div>
+</div></section>
+
+<section class="ft pad pt-24 pb-16" id="contacto" style="border-top:1px solid var(--ln)">
+<p class="mono rev" style="color:var(--au)">[ 05 / CONTACTO ]</p>
+<h2 class="rev mt-5">Hablemos de tu próximo proyecto.</h2>
+<div class="mt-16 grid gap-14 lg:grid-cols-2">
+<address class="rev" style="font-style:normal"><ul class="space-y-7" style="font-size:17px">
+<li><span class="mono" style="color:var(--mu)">UBICACIÓN</span><br>Avenida Bolívar 27-64, Zona 1, Guatemala</li>
+<li><span class="mono" style="color:var(--mu)">TELÉFONOS</span><br><a href="tel:+50222216665">+502 2221 6665</a> | <a href="tel:+50222670275">+502 2267 0275</a></li>
+<li><span class="mono" style="color:var(--mu)">WHATSAPP DIRECTO</span><br><a style="color:var(--au)" target="_blank" rel="noopener" href="https://wa.me/50234961040">+502 3496-1040</a></li>
+<li><span class="mono" style="color:var(--mu)">CORREOS</span><br><a href="mailto:ventas@acempresarial.com">ventas@acempresarial.com</a><br><a href="mailto:ventasav@acempresarial.com">ventasav@acempresarial.com</a></li></ul></address>
+<div class="rev" style="font-size:16px;text-transform:none;letter-spacing:0;font-weight:400;font-family:'Plus Jakarta Sans',sans-serif">
+<form id="f" novalidate>
+<div class="flex flex-wrap gap-2" role="group" aria-label="Servicios de interés">
+<label class="chip"><input class="sr-only" type="checkbox" name="i" value="Uniformes">Uniformes</label><label class="chip"><input class="sr-only" type="checkbox" name="i" value="Bordados">Bordados</label><label class="chip"><input class="sr-only" type="checkbox" name="i" value="Serigrafía">Serigrafía</label><label class="chip"><input class="sr-only" type="checkbox" name="i" value="Impresión Digital">Impresión Digital</label></div>
+<input id="co" class="fi mt-6" placeholder="Empresa o colegio" aria-label="Empresa o colegio" autocomplete="organization">
+<input id="tl" class="fi" placeholder="Teléfono" type="tel" inputmode="tel" aria-label="Teléfono" autocomplete="tel">
+<textarea id="ms" class="fi" rows="2" placeholder="Cantidad de prendas y fecha de entrega" aria-label="Mensaje"></textarea>
+<p id="er" class="mono hidden mt-3" style="color:#F87171" role="alert">Indica tu empresa o colegio y un teléfono válido.</p>
+<button class="btn mt-6" type="submit" data-mag>Enviar solicitud <i data-lucide="arrow-up-right" class="h-5 w-5"></i></button></form>
+<div id="ok" class="hidden" role="status"><p class="sg text-3xl font-bold" style="color:var(--au)">Solicitud lista.</p><p class="mt-3" style="color:var(--mu)">Un asesor te contactará pronto. Para agilizarlo, continúa por WhatsApp.</p><a id="wl" class="btn mt-6" target="_blank" rel="noopener" href="#">Continuar por WhatsApp</a></div>
+</div></div>
+<p class="mono mt-20" style="color:var(--mu)">© 2026 AC EMPRESARIAL // EST. 1993</p>
+</section>
+</main>
+
+<div class="qv" id="qv" aria-hidden="true"><div class="ov" id="qo"></div><aside role="dialog" aria-label="Detalle de línea"><button id="qx" class="mono" style="color:var(--mu)">CERRAR [ESC] ✕</button><div id="qb"></div></aside></div>
+<a class="wa" data-mag href="https://wa.me/50234961040" target="_blank" rel="noopener" aria-label="WhatsApp"><i data-lucide="message-circle" class="h-7 w-7"></i></a>
+
+<script>
+var $=function(i){return document.getElementById(i)},rm=matchMedia("(prefers-reduced-motion:reduce)").matches,touch=matchMedia("(pointer:coarse)").matches;
+var D=[
+{c:"ejecutiva",s:"big",t:"CORTE SASTRE",n:"Línea Ejecutiva Masculina",i:"briefcase",d:"Sacos, camisas y pantalones con patronaje de sastrería para equipos que representan a la marca cada día.",sp:["Patronaje de sastrería","Logo bordado en pecho o manga","Tallaje corporativo completo"]},
+{c:"ejecutiva",s:"w",t:"SILUETA CORPORATIVA",n:"Línea Ejecutiva Femenina",i:"shirt",d:"Blusas, sacos y faldas de acabado impecable para recepción, gerencia y atención al cliente.",sp:["Siluetas pensadas para uso diario","Personalización con bordado","Asesoría de imagen"]},
+{c:"colegial",s:"w",t:"TEJIDO DE ALTA RESISTENCIA",n:"Línea Colegial",i:"graduation-cap",d:"Uniformes para el uso diario y la alta demanda de cada ciclo escolar, con entregas a tiempo para el inicio de clases.",sp:["Telas resistentes al uso diario","Producción por grado y talla","Cumplimiento de fechas escolares"]},
+{c:"salud",s:"",t:"CONFORT EN JORNADA",n:"Línea Hospitalaria",i:"stethoscope",d:"Prendas cómodas y funcionales para clínicas, hospitales y hotelería.",sp:["Corte funcional","Identificación bordada","Uniformidad por área"]},
+{c:"salud",s:"",t:"FUNCIONALIDAD",n:"Línea Cocina",i:"chef-hat",d:"Filipinas, delantales y pantalones pensados para el ritmo de la cocina profesional.",sp:["Piezas para cocina","Bordado de nombre y logo","Reposición por lotes"]},
+{c:"industrial",s:"",t:"RESISTENCIA INDUSTRIAL",n:"Línea Operaria",i:"hard-hat",d:"Uniformes de trabajo para planta, bodega y campo, con costuras y acabados pensados para el esfuerzo diario.",sp:["Confección reforzada","Identidad de marca visible","Producción a escala"]},
+{c:"industrial",s:"f",t:"SUBLIMACIÓN TOTAL",n:"Línea Deportiva",i:"dumbbell",d:"Playeras y conjuntos sublimados para equipos y torneos empresariales, con diseño a todo color.",sp:["Sublimación a todo color","Numeración y nombres","Corte y acabado propios"]}];
+function U(o,h){var a=o.a,b=o.b,c=o.c||a,k='stroke="rgba(255,255,255,.22)" stroke-width="1"',s=o.s=="l",p="";
+if(o.bt=="p")p+='<path fill="'+c+'" '+k+' d="M56 148H144L148 232H106L100 176L94 232H52Z"/>';
+if(o.bt=="k")p+='<path fill="'+c+'" '+k+' d="M56 148H144L166 216H34Z"/><path d="M78 150L64 214M100 150V214M122 150L136 214" stroke="rgba(0,0,0,.3)"/>';
+if(o.bt=="s")p+='<path fill="'+c+'" '+k+' d="M56 148H144L152 200H104L100 170L96 200H48Z"/>';
+p+='<path fill="'+a+'" '+k+' d="'+(s?'M62 34L34 52L26 140L44 144L56 76ZM138 34L166 52L174 140L156 144L144 76Z':'M62 34L34 52L42 88L58 82ZM138 34L166 52L158 88L142 82Z')+'"/>';
+p+='<path fill="'+a+'" '+k+' d="M62 34Q100 50 138 34L144 76L150 150H50L56 76Z"/>';
+if(o.n=="v")p+='<path fill="'+b+'" d="M80 38L100 78L120 38L114 36L100 62L86 36Z"/>';
+if(o.n=="r")p+='<path fill="'+b+'" d="M82 36Q100 58 118 36L112 34Q100 48 88 34Z"/>';
+if(o.n=="c")p+='<path fill="'+b+'" '+k+' d="M78 35L100 50L92 68L72 46ZM122 35L100 50L108 68L128 46Z"/><path d="M100 50V148" stroke="rgba(0,0,0,.25)"/>';
+if(o.n=="l")p+='<path fill="#F8FAFC" d="M84 36L100 84L116 36Z"/><path fill="rgba(255,255,255,.1)" '+k+' d="M84 36L100 84L72 108L64 62ZM116 36L100 84L128 108L136 62Z"/><path fill="'+b+'" d="M96 52H104L106 98L100 106L94 98Z"/>';
+if(o.x=="em")p+='<circle cx="124" cy="100" r="6" fill="#EAB308"/>';
+if(o.x=="pk")p+='<rect x="112" y="92" width="24" height="22" rx="2" fill="none" stroke="'+b+'" stroke-width="2"/>';
+if(o.x=="btn")p+='<g fill="#27272A"><circle cx="90" cy="78" r="3"/><circle cx="110" cy="78" r="3"/><circle cx="90" cy="98" r="3"/><circle cx="110" cy="98" r="3"/><circle cx="90" cy="118" r="3"/><circle cx="110" cy="118" r="3"/></g>';
+if(o.x=="st")p+='<path fill="#E5E7EB" d="M27 112L45 116L44 126L26 122ZM173 112L155 116L156 126L174 122ZM50 118H150V128H50ZM52 206H98L99 216H52ZM102 206H148L148 216H101Z"/>';
+if(o.x=="diag")p+='<path fill="'+b+'" d="M54 104L146 72L148 90L53 122Z"/>';
+return'<svg viewBox="0 0 200 240" aria-hidden="true"'+(h?' style="height:'+h+'px"':'')+'>'+p+'</svg>'}
+var V=[{s:"l",n:"l",bt:"p",a:"#2B3F72",b:"#EAB308",x:"em"},{s:"l",n:"v",bt:"k",a:"#E9E5DA",b:"#2B3F72",c:"#2B3F72"},{s:"s",n:"c",bt:"k",a:"#CFE3F7",b:"#1E3A8A",c:"#1E3A8A",x:"em"},{s:"s",n:"v",bt:"p",a:"#14B8A6",b:"#0F766E",x:"pk"},{s:"l",n:"r",bt:"p",a:"#F8FAFC",b:"#9CA3AF",c:"#3F3F46",x:"btn"},{s:"l",n:"c",bt:"p",a:"#D97706",b:"#92400E",x:"st"},{s:"s",n:"v",bt:"s",a:"#2563EB",b:"#EAB308",x:"diag"}];
+document.querySelectorAll("[data-u]").forEach(function(el){el.innerHTML=U(V[+el.dataset.u])});
+var G=$("grid");
+D.forEach(function(x,k){var a=document.createElement("article");a.className="cd sp "+x.s;a.dataset.c=x.c;
+a.innerHTML='<div class="tw" style="--h:'+(k%2?"rgba(59,130,246,.22)":"rgba(234,179,8,.22)")+'"></div><div class="gi">'+U(V[k])+'</div><button class="cin" data-k="'+k+'" aria-label="Ver detalle de '+x.n+'"><div class="flex justify-between"><span class="tag mono">'+x.t+'</span><i data-lucide="'+x.i+'" class="h-7 w-7" style="color:var(--au)"></i></div><div><h3 class="text-2xl font-bold md:text-3xl">'+x.n+'</h3><p class="mono mt-3" style="color:var(--mu)">QUICK VIEW +</p></div></button>';G.appendChild(a)});
+lucide.createIcons();
+var lenis=null;
+if(!rm&&window.Lenis){lenis=new Lenis({lerp:.09});lenis.on("scroll",ScrollTrigger.update);gsap.ticker.add(function(t){lenis.raf(t*1000)});gsap.ticker.lagSmoothing(0)}
+gsap.registerPlugin(ScrollTrigger);
+document.addEventListener("click",function(e){var a=e.target.closest('a[href^="#"]');if(!a||a.getAttribute("href").length<2)return;var t=document.querySelector(a.getAttribute("href"));if(!t)return;e.preventDefault();lenis?lenis.scrollTo(t,{offset:-10}):t.scrollIntoView({behavior:"smooth"})});
+
+function intro(){
+gsap.from(".ln span",{yPercent:115,duration:1.2,stagger:.12,ease:"expo.out"});
+gsap.from(".fi2",{opacity:0,y:24,duration:1,stagger:.1,delay:.35,ease:"power3.out"});
+gsap.from("#nv",{y:-70,opacity:0,duration:1,delay:.3,ease:"expo.out"});
+gsap.from(".vl",{opacity:0,scale:.92,duration:1.6,stagger:.15,transformOrigin:"50% 50%",ease:"power3.out"})}
+var pl=$("pl"),pc=$("plc");
+if(rm){pl.style.display="none"}else{var o={v:0};
+gsap.timeline().to(o,{v:100,duration:.8,ease:"power2.inOut",onUpdate:function(){pc.textContent=String(Math.round(o.v)).padStart(2,"0")+"%"}})
+.to(".plt",{yPercent:-140,duration:.45,ease:"power3.in"})
+.to(pl,{yPercent:-100,duration:.8,ease:"power4.inOut"},"<.1")
+.add(intro,"-=.5").set(pl,{display:"none"})}
+
+gsap.utils.toArray(".rev").forEach(function(el){gsap.from(el,{y:44,opacity:0,duration:1.1,ease:"power3.out",scrollTrigger:{trigger:el,start:"top 90%"}})});
+gsap.utils.toArray("[data-n]").forEach(function(el){var n=+el.dataset.n,s=el.dataset.s||"",o={v:0};
+ScrollTrigger.create({trigger:el,start:"top 88%",once:true,onEnter:function(){gsap.to(o,{v:n,duration:2.2,ease:"power3.out",onUpdate:function(){el.textContent=Math.round(o.v).toLocaleString("en-US")+s}})}})});
+
+var hero=document.querySelector(".hero");
+if(!touch)hero.addEventListener("pointermove",function(e){var x=e.clientX/innerWidth-.5,y=e.clientY/innerHeight-.5;gsap.utils.toArray(".vl").forEach(function(l){var d=+l.dataset.d;gsap.to(l,{x:x*d*2,y:y*d*2,duration:1.2,ease:"power3.out"})})});
+
+var M=["CONFECCIÓN DE ALTA PRECISIÓN","BORDADO COMPUTARIZADO","SERIGRAFÍA","SUBLIMACIÓN","ENTREGA GARANTIZADA"];
+document.querySelectorAll(".bd div").forEach(function(d,k){var h="";for(var r=0;r<3;r++)M.forEach(function(w){h+="<span>"+w+"</span><i>•</i>"});d.innerHTML=h;d.parentNode.children[1].innerHTML=h});
+
+document.addEventListener("pointermove",function(e){var c=e.target.closest&&e.target.closest(".sp");if(!c)return;var r=c.getBoundingClientRect();c.style.setProperty("--mx",e.clientX-r.left+"px");c.style.setProperty("--my",e.clientY-r.top+"px")});
+
+$("pills").addEventListener("click",function(e){var b=e.target.closest(".pill");if(!b)return;
+document.querySelectorAll(".pill").forEach(function(p){p.setAttribute("aria-pressed",String(p===b))});
+var cs=[].slice.call(G.children);
+gsap.to(cs,{opacity:0,scale:.95,duration:.25,onComplete:function(){var v=[];cs.forEach(function(c){var s=b.dataset.f=="all"||c.dataset.c==b.dataset.f;c.style.display=s?"":"none";if(s)v.push(c)});
+gsap.fromTo(v,{opacity:0,y:26,scale:.96},{opacity:1,y:0,scale:1,duration:.6,stagger:.07,ease:"power3.out",onComplete:ScrollTrigger.refresh})}})});
+
+var qs=new URLSearchParams(location.search),T={};
+["utm_source","utm_medium","utm_campaign","utm_term","gclid"].forEach(function(k){var v=qs.get(k);try{if(v)sessionStorage.setItem(k,v);else v=sessionStorage.getItem(k)}catch(e){}if(v)T[k]=v});
+function ev(n,p){(window.dataLayer=window.dataLayer||[]).push(Object.assign({event:n},p||{}))}
+function org(){var s=[T.utm_source,T.utm_medium,T.utm_campaign].filter(Boolean).join("/");return s?" [Origen: "+s+"]":""}
+document.addEventListener("click",function(e){var a=e.target.closest("a");if(!a)return;var h=a.getAttribute("href")||"";
+if(h.indexOf("wa.me")>-1)ev("whatsapp_click",T);else if(h.indexOf("tel:")==0)ev("phone_click",T);else if(h.indexOf("mailto:")==0)ev("email_click",T);else if(a.classList.contains("btn")||a.classList.contains("cb"))ev("cta_click",{label:a.textContent.trim()})});
+/* ====== IMÁGENES: pega aquí tus fotos (URL de tu hosting, ruta relativa o data:image/jpeg;base64,...) ======
+   Espacios: hero0-hero2 | line0-line6 (catálogo) | svc0-svc3 (servicios) | panel0-panel1 (sectores)
+   Ejemplo:  "hero0":"/img/hero-1.jpg", "line0":"/img/ejecutiva-masculina.jpg", "svc0":"/img/bordado.jpg"  */
+var IMG={
+};
+var SLOTS=[];
+function reg(sel,pre,names){document.querySelectorAll(sel).forEach(function(el,i){el.dataset.slot=pre+i;el.dataset.alt=names[i]||names[0];SLOTS.push([pre+i,names[i]||names[0]])})}
+reg(".hgi","hero",["Uniforme ejecutivo AC Empresarial","Uniforme escolar AC Empresarial","Uniforme operario AC Empresarial"]);
+reg("#grid .gi","line",D.map(function(x){return x.n}));
+reg(".stk .num","svc",["Bordado computarizado","Serigrafía y sublimación","Impresión digital corporativa","Corte, empaque y logística"]);
+reg(".pn .gi","panel",["Sector colegial","Sector corporativo"]);
+reg(".bandf .gi","band",["Taller de confección"]);
+reg(".galf .gi","gal",["Corte de telas","Bordado computarizado","Control de calidad"]);
+document.querySelectorAll(".hgi").forEach(function(e,i){e.dataset.cap=["01 / EJECUTIVA","02 / COLEGIAL","03 / OPERARIA"][i]});
+gsap.utils.toArray(".pf").forEach(function(f){gsap.from(f,{clipPath:"inset(10% 6% 10% 6% round 22px)",opacity:0,duration:1.3,ease:"expo.out",scrollTrigger:{trigger:f,start:"top 88%"}})});
+function applyImgs(){document.querySelectorAll("[data-slot]").forEach(function(el){var u=IMG[el.dataset.slot];if(!el.dataset.svg)el.dataset.svg=el.innerHTML;
+if(u){el.innerHTML='<img src="'+u+'" alt="'+el.dataset.alt+' - AC Empresarial" loading="lazy" decoding="async">';el.classList.add("photo")}else{el.innerHTML=el.dataset.svg;el.classList.remove("photo")}
+if(el.hasAttribute("data-px")){var im=el.querySelector("img");if(el._t){el._t.scrollTrigger&&el._t.scrollTrigger.kill();el._t=null}if(im&&window.gsap)el._t=gsap.fromTo(im,{yPercent:-8},{yPercent:8,ease:"none",scrollTrigger:{trigger:el.parentNode,start:"top bottom",end:"bottom top",scrub:true}})}})}
+applyImgs();
+var DB;function idb(cb){if(DB)return cb(DB);var r=indexedDB.open("ac-img",1);r.onupgradeneeded=function(){r.result.createObjectStore("i")};r.onsuccess=function(){DB=r.result;cb(DB)}}
+function idbSet(k,v){try{idb(function(d){d.transaction("i","readwrite").objectStore("i").put(v,k)})}catch(e){}}
+function idbDel(k){try{idb(function(d){d.transaction("i","readwrite").objectStore("i").delete(k)})}catch(e){}}
+try{idb(function(d){var r=d.transaction("i").objectStore("i").openCursor();r.onsuccess=function(){var c=r.result;if(c){IMG[c.key]=c.value;c.continue()}else applyImgs()}})}catch(e){}
+function fit(f,cb){var fr=new FileReader();fr.onload=function(){var im=new Image();im.onload=function(){var m=1400,s=Math.min(1,m/Math.max(im.width,im.height)),c=document.createElement("canvas");c.width=im.width*s;c.height=im.height*s;c.getContext("2d").drawImage(im,0,0,c.width,c.height);cb(c.toDataURL("image/jpeg",.82))};im.src=fr.result};fr.readAsDataURL(f)}
+if(qs.get("edit")=="1"||location.hash=="#editar"){
+var P=document.createElement("div");P.style.cssText="position:fixed;left:12px;bottom:12px;z-index:300;width:min(350px,calc(100% - 24px));max-height:72vh;overflow:auto;background:#111318;color:#F8FAFC;border:1px solid rgba(234,179,8,.55);border-radius:16px;padding:14px;font:12px/1.4 'JetBrains Mono',monospace";
+P.innerHTML='<b style="color:#EAB308">MODO EDICIÓN DE IMÁGENES</b><p style="color:#94A3B8;margin:6px 0 10px">Elige una foto para cada espacio. Se guarda solo en este navegador. Al terminar, genera el código.</p>';
+SLOTS.forEach(function(s){var r=document.createElement("div");r.style.cssText="display:flex;justify-content:space-between;gap:8px;align-items:center;padding:7px 0;border-top:1px solid rgba(255,255,255,.08)";r.innerHTML='<span style="flex:1">'+s[0]+' · '+s[1]+'</span>';
+var i=document.createElement("input");i.type="file";i.accept="image/*";i.style.cssText="width:96px;font-size:11px";i.onchange=function(){if(i.files[0])fit(i.files[0],function(d){IMG[s[0]]=d;idbSet(s[0],d);applyImgs()})};
+var x=document.createElement("button");x.textContent="✕";x.setAttribute("aria-label","Quitar imagen");x.style.cssText="padding:2px 8px;border:1px solid rgba(255,255,255,.2);border-radius:8px";x.onclick=function(){delete IMG[s[0]];idbDel(s[0]);applyImgs()};
+r.appendChild(i);r.appendChild(x);P.appendChild(r)});
+var gb=document.createElement("button");gb.textContent="Generar código IMG";gb.style.cssText="margin-top:10px;width:100%;padding:10px;border-radius:10px;background:#EAB308;color:#07080A;font-weight:700";
+var ta=document.createElement("textarea");ta.style.cssText="display:none;width:100%;height:120px;margin-top:8px;background:#07080A;color:#F8FAFC;font-size:10px";
+gb.onclick=function(){ta.style.display="block";ta.value="var IMG="+JSON.stringify(IMG,null,1)+";";ta.select();try{document.execCommand("copy")}catch(e){}};
+P.appendChild(gb);P.appendChild(ta);document.body.appendChild(P)}
+var qv=$("qv");
+function qOpen(k){var x=D[k];ev("view_item",{item_name:x.n});$("qb").innerHTML='<div class="mt-6" style="display:grid;place-items:center;padding:18px;border:1px solid var(--ln);border-radius:20px;background:radial-gradient(circle,rgba(234,179,8,.16),transparent 70%)">'+(IMG["line"+k]?'<img src="'+IMG["line"+k]+'" alt="'+x.n+' - AC Empresarial" style="width:100%;border-radius:14px;aspect-ratio:4/5;object-fit:cover">':U(V[k],250))+'</div><p class="tag mono mt-6">'+x.t+'</p><h3 class="mt-5 text-4xl font-bold">'+x.n+'</h3><p class="mt-5" style="color:var(--mu)">'+x.d+'</p><ul class="mono mt-8 space-y-3">'+x.sp.map(function(s){return'<li style="border-top:1px solid var(--ln);padding-top:12px">'+s.toUpperCase()+'</li>'}).join("")+'</ul><a href="#contacto" class="btn mt-10" id="qc">Cotizar esta línea</a>';
+qv.classList.add("on");qv.setAttribute("aria-hidden","false");lenis&&lenis.stop();$("qx").focus();$("qc").addEventListener("click",qClose)}
+function qClose(){qv.classList.remove("on");qv.setAttribute("aria-hidden","true");lenis&&lenis.start()}
+G.addEventListener("click",function(e){var b=e.target.closest(".cin");if(b)qOpen(+b.dataset.k)});
+$("qo").addEventListener("click",qClose);$("qx").addEventListener("click",qClose);
+document.addEventListener("keydown",function(e){if(e.key=="Escape")qClose()});
+
+var st=gsap.utils.toArray(".stk");
+st.forEach(function(c,i){if(i<st.length-1)gsap.to(c,{scale:.92,opacity:.5,ease:"none",scrollTrigger:{trigger:st[i+1],start:"top 80%",end:"top 22%",scrub:true}})});
+
+var pn=[].slice.call(document.querySelectorAll(".pn"));
+function act(p){pn.forEach(function(q){q.classList.toggle("on",q===p)})}
+pn.forEach(function(p){p.addEventListener("click",function(){act(p)});p.addEventListener("focus",function(){act(p)});if(!touch)p.addEventListener("mouseenter",function(){act(p)})});
+
+if(!touch)document.querySelectorAll("[data-mag]").forEach(function(el){
+el.addEventListener("pointermove",function(e){var r=el.getBoundingClientRect();gsap.to(el,{x:(e.clientX-r.left-r.width/2)*.35,y:(e.clientY-r.top-r.height/2)*.35,duration:.4,ease:"power3.out"})});
+el.addEventListener("pointerleave",function(){gsap.to(el,{x:0,y:0,duration:.8,ease:"elastic.out(1,.4)"})})});
+
+var SV={colegios:["Uniformes escolares en Guatemala con telas resistentes al uso diario y entregas puntuales para el inicio de clases. Cotiza por grado y talla.",0],empresas:["Uniformes corporativos en Guatemala con imagen ejecutiva impecable, bordado de logo y asesoría integral según tu presupuesto.",1],industrial:["Uniformes industriales y de trabajo en Guatemala: confección reforzada, personalización y producción a escala.",null]},sv=SV[qs.get("s")];
+if(sv){$("lead").textContent=sv[0];var uc=document.querySelector("input[name=i][value=Uniformes]");if(uc)uc.checked=true;if(sv[1]!==null)act(pn[sv[1]])}
+$("f").addEventListener("submit",function(e){e.preventDefault();
+var co=$("co").value.trim(),tl=$("tl").value.trim();
+if(!co||tl.replace(/\D/g,"").length<8){$("er").classList.remove("hidden");return}
+var it=[].map.call(document.querySelectorAll("input[name=i]:checked"),function(i){return i.value}).join(", ")||"Cotización general";
+$("wl").href="https://wa.me/50234961040?text="+encodeURIComponent("Hola, soy de "+co+". Interés: "+it+". Teléfono: "+tl+". "+$("ms").value+org());
+ev("generate_lead",Object.assign({services:it},T));this.style.display="none";$("ok").classList.remove("hidden");gsap.from("#ok",{y:20,opacity:0,duration:.7})});
+</script>
+</body>
+</html>
